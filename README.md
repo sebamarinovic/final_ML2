@@ -6,7 +6,7 @@
 **Problema:** Regresión supervisada para estimar Remaining Useful Life de motores  
 **Dataset:** NASA C-MAPSS FD001  
 **Fecha de presentación:** 20 de enero  
-**Autores:** [Completar nombres]
+**Autores:** Sebastián Marinovic - Luis Gutierrez - Ricardo Lizana
 
 ---
 
