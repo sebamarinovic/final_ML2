@@ -133,6 +133,9 @@ Este flujo permitiría anticipar fallas con un margen útil de decisión.
 
 ## 🧾 9. Estructura del repositorio
 
+## 🧾 9. Estructura del repositorio
+
+```text
 final_ML2/
 ├── final_ML2.ipynb
 ├── CMAPSSData.zip
@@ -141,7 +144,7 @@ final_ML2/
 ├── mae_comparison_models.png
 ├── predicted_vs_actual_rul_gb.png
 └── residuals_distribution_gb.png
-
+```
 
 ---
 
