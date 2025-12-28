@@ -215,7 +215,7 @@ gbr_gs = GridSearchCV(
 
 ### 1. Distribución de la Variable Objetivo (RUL)
 
-![Distribución RUL](images/01_distribucion_rul.png)
+![Distribución RUL](figures/01_distribucion_rul.png)
 
 **Observaciones:**
 - Truncamiento "early RUL" en 125 ciclos (práctica estándar en PHM)
@@ -224,7 +224,7 @@ gbr_gs = GridSearchCV(
 
 ### 2. Sensores con Mayor Varianza
 
-![Top 9 Sensores](images/02_top9_sensores.png)
+![Top 9 Sensores](figures/02_top9_sensores.png)
 
 **Identificación de features informativas:**
 - `sensor_9` (var=487.65) - Mayor variabilidad
@@ -233,7 +233,7 @@ gbr_gs = GridSearchCV(
 
 ### 3. Matriz de Correlación con RUL
 
-![Correlación](images/03_matriz_correlacion.png)
+![Correlación](figures/03_matriz_correlacion.png)
 
 **Correlaciones más fuertes:**
 - **Positivas:** `sensor_12` (0.749), `sensor_7` (0.733)
@@ -243,19 +243,19 @@ Correlaciones moderadas (|r| < 0.8) justifican uso de modelos no lineales.
 
 ### 4. Comparación de Modelos
 
-![Comparación Modelos](images/07_comparacion_modelos.png)
+![Comparación Modelos](figures/07_comparacion_modelos.png)
 
 **Gradient Boosting supera consistentemente** en todas las métricas de validación.
 
 ### 5. Predicciones vs Valores Reales (Gradient Boosting)
 
-![GB Predicciones](images/04_gb_predicciones.png)
+![GB Predicciones](figures/04_gb_predicciones.png)
 
 **Validación:** R² = 0.8913 | MAE = 10.29 ciclos
 
 ### 6. Feature Importance (Gradient Boosting)
 
-![Feature Importance](images/05_feature_importance.png)
+![Feature Importance](figures/05_feature_importance.png)
 
 **Top 3 features:**
 1. `sensor_11` (48.0%) - Domina la predicción
