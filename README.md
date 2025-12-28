@@ -5,8 +5,12 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6.1-orange.svg)](https://scikit-learn.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](final_ML2.ipynb)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](final_ML2.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebamarinovic/final_ML2/blob/main/final_ML2.ipynb)
+[![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.org/github/sebamarinovic/final_ML2/blob/main/final_ML2.ipynb)
+
+**Resultados:** MAE = 10.29 ciclos | R² = 0.8913 | 89 combinaciones de hiperparámetros evaluadas
 
 ---
 
@@ -352,9 +356,13 @@ final_ML2/
 │   └── gbr_gs.pkl
 │
 ├── figures/                 # Visualizaciones (generadas)
-│   ├── eda/
-│   ├── model_comparison/
-│   └── residuals/
+│   ├── 01_distribucion_rul.png
+│   ├── 02_top9_sensores.png
+│   ├── 03_matriz_correlacion.png
+│   ├── 04_gb_predicciones.png
+│   ├── 05_feature_importance.png
+│   ├── 06_curva_aprendizaje.png
+│   └── 07_comparacion_modelos.png
 │
 └── docs/                    # Documentación adicional
     ├── ANALISIS_FINAL_Y_CORRECCIONES.md
