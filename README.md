@@ -532,8 +532,8 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 Para preguntas, sugerencias o colaboraciones:
 
-- 📧 Email: [sebastian.marinovic@udla.cl](mailto:sebastian.marinovic@udla.cl)
-- 💼 LinkedIn: [Sebastián Marinovic](#)
+- 📧 Email: [sebasmarinovic.leiva@gmail.com](mailto:sebamarinovic.leivac@gmail.com)
+- 💼 LinkedIn: [Sebastián Marinovic](https://www.linkedin.com/in/sebamarinovic/)
 - 🐙 GitHub: [@sebamarinovic](https://github.com/sebamarinovic)
 
 ---
