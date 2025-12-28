@@ -264,7 +264,7 @@ Correlaciones moderadas (|r| < 0.8) justifican uso de modelos no lineales.
 
 ### 7. Curva de Aprendizaje
 
-![Learning Curve](images/06_curva_aprendizaje.png)
+![Learning Curve](figures/06_curva_aprendizaje.png)
 
 **Convergencia alcanzada en ~400 iteraciones** con MAE mínimo de 10.29 ciclos.
 
