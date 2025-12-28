@@ -1,0 +1,29 @@
+# ============================================================
+# DEPENDENCIAS DEL PROYECTO - Predicción RUL Motores Turbofán
+# ============================================================
+
+# Core Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.6.1
+
+# Visualización
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.20.0
+notebook>=7.0.0
+
+# Utilidades
+tqdm>=4.65.0
+
+# Opcional - Para despliegue
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+# pydantic>=2.0.0
+# python-multipart>=0.0.6
